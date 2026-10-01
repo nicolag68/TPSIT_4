@@ -3,5 +3,5 @@ project(TPSIT C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(TPSIT main.c
-        EsBaseFork/es1.c)
+add_executable(TPSIT main.c)
+add_executable(es1 EsBaseFork/es1.c)
