@@ -15,8 +15,8 @@ int main() {
     pid = fork(); // creazione processo figlio
 
     if (pid == -1) {
-        // perror("fork");
-        // exit(1);
+        perror("fork");
+        exit(1);
     }
     if (pid == 0) { // figlio
         for (int i = 1; i <= 5; i++) {

@@ -19,7 +19,7 @@ int main() {
             exit(1);
         }
         if (pid == 0) {
-            printf("figlio: PID = %d\n", getpid());
+            printf("figlio: PID = %d\n", getpid()); //pid del processo in corso mentre getppid restituisce pid del padre del processo in corso
             sleep(2);
             return 0;
         }
