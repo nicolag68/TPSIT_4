@@ -13,3 +13,6 @@ add_executable(es4 EsBaseFork/es4.c)
 
 #pipe()
 add_executable(pipe1 EsPipe/pipe1.c)
+add_executable(pipe2 EsPipe/pipe2.c)
+add_executable(pipe3 EsPipe/pipe3.c)
+
