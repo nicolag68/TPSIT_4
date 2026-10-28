@@ -22,9 +22,9 @@ add_executable(pipe3 EsPipe/pipe3.c)
 
 #named pipe()
 add_executable(server1 NamedPipe/Es1/server1.c)
-add_executable(client1 NamedPipe/Es1/client1.c
-        NamedPipe/Es2/server2.c
-        NamedPipe/Es2/client2.c
-        NamedPipe/Es3/chatA.c
-        NamedPipe/Es3/chatB.c)
+add_executable(client1 NamedPipe/Es1/client1.c)
+add_executable(server2 NamedPipe/Es2/server2.c)
+add_executable(client2 NamedPipe/Es2/client2.c)
+add_executable(chatA NamedPipe/Es3/chatA.c)
+add_executable(chatB NamedPipe/Es3/chatB.c)
 
